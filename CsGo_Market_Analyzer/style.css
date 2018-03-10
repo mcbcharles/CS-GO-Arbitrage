@@ -1,0 +1,90 @@
+/**
+ *This css file gives most of the elements from GUI.FXML color, shape, and other effects.
+ */
+
+/*The following apply to all elements that don't have there own ID*/
+
+.root {
+-fx-font-smoothing-type: gray;
+-fx-font-family: StratumNo2;
+-fx-font-size: 18px;
+-fx-font-weight: bold;
+-fx-background-image: url("new_logo.jpg")
+}
+.label{
+-fx-background-color: #494949;
+-fx-text-fill: #8BB2D5;
+-fx-padding: 0 0 0 5;
+}
+.text-field {
+-fx-opacity: 0.9;
+-fx-text-fill: #8BB2D5;
+-fx-background-insets: 0 0 0 0, 0, 0, 0;
+-fx-background-radius: 0 0 0 0, 0, 0, 0;
+-fx-border-width: 0 0 0 0, 0, 0, 0;
+-fx-padding: 0 0 0 3;
+-fx-background-color: #151E27;
+}
+.button {
+-fx-text-fill: #81A6C9;
+-fx-opacity: 0.6;
+-fx-background-color:#3D4655;
+//linear-gradient(#0A1F40 0%, #0D2140 9%, #1F2C40 58%, #2E3540 100%);
+-fx-background-insets: 0 0 0 0, 0, 0, 0;
+-fx-background-radius: 0 0 0 0, 0, 0, 0;
+-fx-border-width: 0 0 0 0, 0, 0, 0;
+-fx-padding: 0 0 0 0;
+}
+.button:hover {
+-fx-opacity: 0.95;
+-fx-background-color: #384F6F;
+-fx-font-size: 19px;
+}
+.check-box .box{
+-fx-font-size: 12px;
+-fx-outer-border: #cadbec;
+-fx-body-color: #262626;
+-fx-background-color: #3C3C3C;
+-fx-shadow-highlight-color: #3F3F3F;
+-fx-background-insets: 0 0 0 0, 0, 0, 0;
+-fx-background-radius: 0 0 0 0, 0, 0, 0;
+}
+.check-box .mark {
+-fx-shape:"M22 54 L62 8 L60 4 L22 38 L14 30 L6 38" ;
+ -fx-scale-x: 1.65;
+ -fx-scale-y: 1.65;
+}
+.check-box:selected .mark {
+-fx-background-color: #54A7C6;
+}
+
+/*The following apply to all elements that have their own ID*/
+
+#community_API {
+-fx-font-family: StratumNo2;
+-fx-font-size: 17px;
+-fx-font-weight: bold;
+-fx-background-color:#334714;
+-fx-padding: 0 0 0 10;
+-fx-text-fill: #9CB07D;
+}
+#error{
+-fx-font-family: StratumNo2;
+-fx-font-size: 18px;
+-fx-font-weight: bold;
+-fx-background-color: #810100;
+-fx-padding: 0 0 0 3;
+-fx-text-fill: black;
+}
+#testEmailPhone{
+-fx-font-family: StratumNo2;
+-fx-font-size: 18px;
+-fx-font-weight: bold;
+-fx-opacity: 0.8;
+-fx-background-color:#334714;
+-fx-text-fill: #9CB07D;
+}
+#testEmailPhone:hover{
+-fx-opacity: 0.95;
+-fx-font-size: 19px;
+}
