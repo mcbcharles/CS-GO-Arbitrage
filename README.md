@@ -1,4 +1,4 @@
-This project was completed in 2016 and both Joe1275 and I have lost intrest in keeping the program up to date. Don't expect this to work at all.
+This project was completed in 2016 and both Joe1275 and I have lost interest in keeping the program up to date. Don't expect this to work at all.
 
 At the time of completion the libraries needed were:
 <ul>
